@@ -4,3 +4,8 @@
 .table-action {
   text-align: center;
 }
+@media screen and (max-width: 575px) {
+  .book-leasing-date {
+    display: none;
+  }
+}
