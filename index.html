@@ -85,18 +85,188 @@
             <h1>Catalogo Libri</h1>
             <button class="btn btn-primary">Aggiungi Libro</button>
           </div>
+          <!-- START TABLE -->
           <table class="table table-striped">
             <thead>
-              <th>Title</th>
-              <th>Data prestito</th>
-              <th>Stato</th>
+              <th class="book-title">Title</th>
+              <th class="book-leasing-date">Data prestito</th>
+              <th class="book-availability">Stato</th>
               <th class="table-action">Azioni</th>
             </thead>
             <tbody>
               <tr>
-                <td>I pilastri della terra</td>
-                <td>-</td>
-                <td><span class="badge bg-success">Disponibile</span></td>
+                <td class="book-title">I pilastri della terra</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-success">Disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">I promessi sposi</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-success">Disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">Il signore degli anelli</td>
+                <td class="book-leasing-date">18-10-2023</td>
+                <td class="book-availability">
+                  <span class="badge bg-warning">In prestito</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">Harry Potter e la pietra filosofale</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-success">Disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">Il codice Da Vinci</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-danger">Non disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">Shining</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-success">Disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">La divina commedia</td>
+                <td class="book-leasing-date">21-09-2023</td>
+                <td class="book-availability">
+                  <span class="badge bg-warning">In prestito</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">Il trono di spade</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-success">Disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">Il mondo di Sofia</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-danger">Non disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">
+                  Le cronache di Narnia: il leone, la strega e l'armadio
+                </td>
+                <td class="book-leasing-date">25-07-2023</td>
+                <td class="book-availability">
+                  <span class="badge bg-warning">In prestito</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">Il piccolo principe</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-success">Disponibile</span>
+                </td>
+                <td class="table-action">
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="book-title">La storia infinita</td>
+                <td class="book-leasing-date">-</td>
+                <td class="book-availability">
+                  <span class="badge bg-success">Disponibile</span>
+                </td>
                 <td class="table-action">
                   <button class="btn btn-sm btn-outline-secondary">
                     <i class="fa-solid fa-pencil"></i>
@@ -108,8 +278,10 @@
               </tr>
             </tbody>
           </table>
+          <!-- END TABLE -->
         </div>
         <div class="col-lg-3">
+          <!-- START TODO CARD -->
           <div class="card mb-4">
             <div class="card-header fs-1">Todo</div>
             <div class="card-body fs-6">
@@ -150,6 +322,8 @@
               </ul>
             </div>
           </div>
+          <!-- END TODO CARD -->
+          <!-- START FAQ CARD -->
           <div class="card mb-4">
             <div class="card-header fs-1">F.A.Q.</div>
             <div class="card-body fs-6">
@@ -237,6 +411,7 @@
               </div>
             </div>
           </div>
+          <!-- END FAQ CARD -->
         </div>
       </div>
     </div>
